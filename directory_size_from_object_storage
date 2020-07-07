@@ -1,5 +1,11 @@
+## Function definition
 def directory_size(path_to_dir):
   s = 0
   for i in path_to_dir:
     s = s + i.size
   print(s)
+
+
+## Function call
+path_to_dir = dbutils.fs.ls("XXXXXXX")
+directory_size(path_to_dir)
