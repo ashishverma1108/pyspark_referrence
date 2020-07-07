@@ -1,0 +1,5 @@
+def directory_size(path_to_dir):
+  s = 0
+  for i in path_to_dir:
+    s = s + i.size
+  print(s)
